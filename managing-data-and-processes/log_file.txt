@@ -1,0 +1,8 @@
+Jul 29 11:45:02 ubuntu-server systemd[1]: Starting Periodic Command Scheduler...
+Jul 29 11:45:02 ubuntu-server cron[1245]: (CRON) INFO (Running @reboot jobs)
+Jul 29 11:45:10 ubuntu-server sshd[2541]: Accepted password for root from 192.168.1.50 port 54322 ssh2
+Jul 6 14:01:23 computer.name CRON[29440]: USER (good_user)
+Jul 29 11:46:15 ubuntu-server kernel: [   24.102351] ext4-fs (sda1): mounted filesystem with ordered data mode.
+Jul 6 14:03:01 computer.name CRON[29440]: USER (naughty_user)
+Jul 6 14:04:01 computer.name CRON[29440]: USER (naughty_user)
+Jul 6 14:05:01 computer.name CRON[29440]: USER (naughty_user)

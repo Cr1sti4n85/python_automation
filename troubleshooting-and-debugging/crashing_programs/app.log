@@ -1,0 +1,4 @@
+2026-08-25 17:12:53,686 - ERROR - This is an error with a custom format
+2026-08-25 17:12:53,686 - WARNING - This is a warning message
+2026-08-25 17:12:53,686 - ERROR - This is an error message
+2026-08-25 17:12:53,686 - DEBUG - This is a debug message

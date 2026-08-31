@@ -1,0 +1,14 @@
+1. Getting information (internal doc, questions asked on internet)
+
+2. Find the root cause of the problem
+
+3. Perform the necessary remediation
+
+It's important that we document what we do. 
+
+Questions to be answered by the client
+
+What were you trying to do?
+What steps did you follow?
+What was the expected result?
+What was the actual result?

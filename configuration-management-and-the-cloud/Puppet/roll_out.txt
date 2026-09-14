@@ -1,0 +1,10 @@
+
+1. Agent checks in: The Puppet agent starts a run and gathers facts about the machine. 
+2. Catalog compilation: The Puppet server receives the facts and uses them, along with the Puppet manifests, modules, variables, and configuration, to compile a catalog specifically for that machine. 
+3. Catalog is sent to the agent The Puppet server sends the compiled catalog back to the agent. The agent then compares the desired state described in the catalog with the actual state of the server. 
+4. Changes are evaluated and applied. If the server already matches the desired state, Puppet makes no changes. If there are differences, the agent applies the necessary changes. 
+5. Test before production. Before applying a major change, you can perform a noop/dry run. 
+6. Gradual deployment: If the canary servers behave correctly, expand the deployment gradually. 
+7. Reporting and verification: After applying the catalog, Puppet reports what happened. Administrators can use those reports to verify whether resources were successfully changed or whether errors occurred. 
+
+The strength of this approach is that it provides consistency, automation, and controlled risk. Instead of manually changing hundreds or thousands of machines and hoping everything works, Puppet defines the desired state, applies it consistently, and gives you opportunities to test, monitor, and stop the deployment before a problem affects the entire fleet.
